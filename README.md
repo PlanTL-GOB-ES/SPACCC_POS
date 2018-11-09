@@ -68,6 +68,9 @@ Guidelines have been written and developed in Spanish and are only available in 
 
 ## Corpus consistency
 
+The following three tables show the interagreement results measured on both the development and the validation corpus. 
+See the inter-annotator agreement report (Informe_interagreement_CNIO_PlanTL_SEAD.pdf) included in folder `iaa`in this 
+repository for further details.
 
 |                        |   POS  |
 | ---------------------- | ------ |
@@ -75,28 +78,26 @@ Guidelines have been written and developed in Spanish and are only available in 
 | A1 vs FL               | 99,47% |
 | A2 vs FL               | 99,87% |
 | Required minimum level | 96%    |
-| ---------------------- | ------ |
+
 Table 1: Interagreement betwen the two human annotators and SPACCC_POS_TAGGER on the development corpus.
+
 
 |                        |  POS   |
 | ---------------------- | ------ |
 | GS vs FL               | 98,36% |
 | Required minimum level | 96%    |
-| ---------------------- | ------ |
 
 Table 2: Interagreement between the gold standard corpus and SPACCC_POS-TAGGER on the development corpus.
 
+
 |                        |  POS   |
 | ---------------------- | ------ |
 | GS vs FL               | 98,36% |
 | Required minimum level | 96%    |
-| ---------------------- | ------ |
 
 Table 3: Interagreement between the gold standard corpus and SPACCC_POS-TAGGER on the validation corpus.
 
 
-See the inter-annotator agreement report (Informe_interagreement_CNIO_PlanTL_SEAD.pdf) included in folder `iaa`in this 
-repository for further details.
 
 ## Annotation schema
 
