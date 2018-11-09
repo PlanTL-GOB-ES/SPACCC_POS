@@ -1,0 +1,8 @@
+[ERROR] Fallo al convertir el fichero S0211-69952011000100019-1.txt_tagged de Freeling a Brat
+list index out of range
+[ERROR] Fallo al convertir el fichero es-S1139-76322013000200008-1.txt_tagged de Freeling a Brat
+list index out of range
+[ERROR] Fallo al convertir el fichero es-S0211-69952015000200015-1.txt_tagged de Freeling a Brat
+list index out of range
+[ERROR] Fallo al convertir el fichero es-S0376-78922009000100011-1.txt_tagged de Freeling a Brat
+list index out of range
