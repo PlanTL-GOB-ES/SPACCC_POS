@@ -54,9 +54,6 @@ See http://brat.nlplab.org/standoff.html for further details on the brat standof
 This annotation format is produced by running an script that converts the output of SPACC_POS-TAGGER.
 
 
-## Corpus predictions
-
-
 ## Annotation guidelines
 
 The annotation guidelines describe the criteria that have been followed to annotate the corpus, along with illustrative 
@@ -68,7 +65,7 @@ Guidelines have been written and developed in Spanish and are only available in 
 
 ## Corpus consistency
 
-The following three tables show the interagreement results measured on both the development and the validation corpus. See the inter-annotator agreement report (Informe_interagreement_CNIO_PlanTL_SEAD.pdf) included in folder iaain this repository for further details. The required minimum level was 96%.
+The following three tables show the interagreement results measured on both the development and the validation corpus. See the inter-annotator agreement report (Informe_interagreement_CNIO_PlanTL_SEAD.pdf) included in folder `IAA`in this repository for further details. The required minimum level was 96%.
 
 |                        |   POS  |
 | ---------------------- | ------ |
@@ -91,10 +88,6 @@ Table 2: Interagreement between the gold standard corpus and SPACCC_POS-TAGGER o
 | GS vs FL               | 98,71% |
 
 Table 3: Interagreement between the gold standard corpus and SPACCC_POS-TAGGER on the validation corpus.
-
-
-
-## Annotation schema
 
 
 ## Contact
