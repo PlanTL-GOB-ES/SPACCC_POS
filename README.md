@@ -68,23 +68,32 @@ Guidelines have been written and developed in Spanish and are only available in 
 
 ## Corpus consistency
 
+
+|                        |   POS  |
+| ---------------------- | ------ |
+| A1 vs A2               | 98,85% |
+| A1 vs FL               | 99,47% |
+| A2 vs FL               | 99,87% |
+| Required minimum level | 96%    |
+Table 1: Interagreement betwen the two human annotators and SPACCC_POS_TAGGER on the development corpus.
+
+|                        |  POS   |
+| ---------------------- | ------ |
+| GS vs FL               | 98,36% |
+| Required minimum level | 96%    |
+
+Table 2: Interagreement between the gold standard corpus and SPACCC_POS-TAGGER on the development corpus.
+
+|                        |  POS   |
+| ---------------------- | ------ |
+| GS vs FL               | 98,36% |
+| Required minimum level | 96%    |
+
+Table 3: Interagreement between the gold standard corpus and SPACCC_POS-TAGGER on the validation corpus.
+
+
 See the inter-annotator agreement report (Informe_interagreement_CNIO_PlanTL_SEAD.pdf) included in folder `iaa`in this 
 repository for further details.
-
-|                        | Split  | Token  |  POS   |
-| ---------------------- | ------ |------- |------- |
-| A1 vs A2               | 99,79% | 99,97% | 98,85% |
-| A1 vs FL               | 99,37% | 99,95% | 99,47% |
-| A2 vs FL               | 99,58% | 99,96% | 99,87% |
-| Required minimum level | 99%    | 98%    | 96%    |
-
-
-|                        | Split  | Token  |  POS   |
-| ---------------------- | ------ |------- |------- |
-| GS vs FL               | 99,37% | 99,95% | 98,36% |
-| Required minimum level | 99%    | 98%    | 96%    |
-
-
 
 ## Annotation schema
 
