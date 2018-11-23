@@ -3,7 +3,7 @@
 ## Introduction
 
 This repository contains the Part-of-Speech (POS) annotations in the Spanish Clinical Case Corpus. 20% of the corpus was annotated manually by two annotators, while the remaining 80% was annotated automatically the Spanish Clinical Case Corpus 
-Part-of-Specch Tagger (SPACCC_POS-TAGGER, https://github.com/PlanTL/SPACCC_POS-TAGGER), with an implemented version of the FreeLing3.1 tool, which mimics the criteria marked by the two human annotators.
+Part-of-Speech Tagger (SPACCC_POS-TAGGER, https://github.com/PlanTL/SPACCC_POS-TAGGER), with an implemented version of the FreeLing3.1 tool, which mimics the criteria marked by the two human annotators.
 
 The corpus has 64,865 sentences, 353,144 words and 18,281 different lemmata. The ratio of words per sentence is 5.44.
 
