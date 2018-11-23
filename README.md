@@ -1,5 +1,10 @@
 # SPACCC_POS: Spanish Clinical Case Corpus - Part-of-Speech
 
+## Digital Object Identifier (DOI) and access to source files
+
+https://doi.org/10.5281/zenodo.1494919
+
+
 ## Introduction
 
 This repository contains the Part-of-Speech (POS) annotations in the Spanish Clinical Case Corpus. 20% of the corpus was annotated manually by two annotators, while the remaining 80% was annotated automatically the Spanish Clinical Case Corpus 
