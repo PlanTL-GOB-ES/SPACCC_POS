@@ -7,8 +7,11 @@ https://doi.org/10.5281/zenodo.1494919
 
 ## Introduction
 
-This repository contains the Part-of-Speech (POS) annotations in the Spanish Clinical Case Corpus. 20% of the corpus was annotated manually by two annotators, while the remaining 80% was annotated automatically the Spanish Clinical Case Corpus 
-Part-of-Speech Tagger (SPACCC_POS-TAGGER, https://github.com/PlanTL/SPACCC_POS-TAGGER), with an implemented version of the FreeLing3.1 tool, which mimics the criteria marked by the two human annotators.
+This repository contains the Part-of-Speech (POS) annotations in the Spanish Clinical Case Corpus. 
+20% of the corpus was annotated manually by two annotators, while the remaining 80% was annotated automatically with 
+the Spanish Clinical Case Corpus Part-of-Speech Tagger (SPACCC_POS-TAGGER, 
+https://github.com/PlanTL/SPACCC_POS-TAGGER), with an implemented version of the FreeLing3.1 tool, which mimics the 
+criteria marked by the two human annotators.
 
 The corpus has 64,865 sentences, 353,144 words and 18,281 different lemmata. The ratio of words per sentence 
 is 5.44.
@@ -59,12 +62,11 @@ Annotations created in SPACCC_POS are stored in a CoNLL-like column format, wher
 * `PROBABILITY`: probability of the chosen tag.
 
 In addition, POS annotations are provided in BRAT standoff format; i.e. the annotations are stored separately 
-(in an `.ann` file) from the document text. 
-These two files are associated by their base name; their file name without suffix is the same: 
+(in an `.ann` file) from the document text (a `.txt` file). 
+These two files are associated by their base name; their file name without suffix is the same, for example, the file 
 `es-S0004-06142005000200009-1.ann` contains the annotations for the file `es-S0004-06142005000200009-1.txt`. 
 See http://brat.nlplab.org/standoff.html for further details on the brat standoff format. 
 
-This annotation format is produced by running an script that converts the output of SPACC_POS-TAGGER.
 In the `.ann` file each token is labeled with its POS (in a two-character reduced version) and a legend with 
 the following information:
 
@@ -72,12 +74,14 @@ the following information:
 * the full wordform
 * the complete POS tag
 
+This annotation format is produced by running an script that converts the output of SPACC_POS-TAGGER.
+
 
 ## Corpus predictions
 
-The quality of the annotations at the level of sentence splitting carried out with FreeLing3.1, i.e. FreeLing prior its 
-adaptation to the clinical corpus, was measured with the development corpus: 10% of the whole corpus, 100 randomly chosen 
-texts. 98.36% of the corpus was successfully annotated. The most frequent discrepancies were those related to adjectives 
+The quality of the annotations at the level of sentence splitting carried out by FreeLing prior its adaptation to the
+clinical corpus, was measured with the development corpus: 100 randomly chosen texts (10% of the whole corpus). 
+98.36% of this corpus was successfully annotated. The most frequent discrepancies were those ones related to adjectives 
 and nouns and the use of 'se' in constructions in which the clitic is attached to a gerund.
 
 
@@ -92,7 +96,7 @@ Guidelines have been written and developed in Spanish and are only available in 
 
 ## Corpus consistency
 
-The following three tables show the interagreement results measured on both the development and the validation corpus. See the inter-annotator agreement report (Informe_interagreement_CNIO_PlanTL_SEAD.pdf) included in folder `IAA`in this repository for further details. The required minimum level was 96%.
+The following three tables show the interagreement results measured on both the development and the validation corpus. See the inter-annotator agreement report (Informe_interagreement_CNIO_PlanTL_SEAD.pdf) included in folder `IAA`in this repository for further details. Note that the required minimum level was 96%.
 
 |                        |   POS  |
 | ---------------------- | ------ |
