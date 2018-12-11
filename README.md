@@ -72,9 +72,10 @@ the following information:
 
 * the reduced tag
 * the full wordform
-* the complete POS tag
+* the lemma and the complete POS tag
 
-This annotation format is produced by running an script that converts the output of SPACC_POS-TAGGER.
+This annotation format is produced by running an script that converts the output of SPACC_POS-TAGGER. The description of 
+the FreeLing tagset may be found at https://talp-upc.gitbook.io/freeling-4-1-user-manual/tagsets/tagset-es.
 
 
 ## Corpus predictions
