@@ -26,7 +26,7 @@ script/
   Script to convert FreeLing3.1 tabular output format into BRAT standoff format.
 </pre>
 
-This script is the same for `SPACCC_POS`, `SPACCC_SPLIT` and `SPACCC_TOKEN`, with the exception of minor changes in documentation.
+This script is the same for `SPACCC_POS`, `SPACCC_SPLIT` and `SPACCC_TOKEN`, with the exception of minor changes in the documentation.
 
 In Zenodo:
 
