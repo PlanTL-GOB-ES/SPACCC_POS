@@ -11,25 +11,30 @@ lemma and the complete PoS tag when the pointer is placed on the word.
 
 The script requires Python 3 installed on your system.
 
-NOTE: Do not remove `example_input/`, `example_tagged/` and `example_output/` and folders.
+NOTE: Do not remove `example_input/`, `example_tagged/` and `example_output/` folders.
 
 
 ## Directory structure
 ------------
 
 <pre>
-`example_input/`
-Original sample text files folder. 
-`example_tagged/`
-Annotated sample text files folder.
-`example_output/`
-Sample text files folder as they result from the execution of the script `convertFreelingToBrat.py`.
-`convertFreelingToBrat.py`
-Main script.
-`generadorFicherosBrat.py`
-Script with auxiliary functionality to the converter.
-`README.md`
-This file.
+example_input/
+	Original sample text files folder. 
+
+example_tagged/
+	Annotated sample text files folder.
+
+example_output/
+	Sample text files folder as they result from the execution of the script `convertFreelingToBrat.py`.
+
+convertFreelingToBrat.py
+	Main script.
+
+generadorFicherosBrat.py
+	Script with auxiliary functionality to the converter.
+
+README.md
+	This file.
 </pre>
 
 
@@ -39,7 +44,7 @@ This file.
 
 It is possible to configure the behavior of this software using the different options.
 
-  - The `input`, `tagged`, and `output` folder options allow to change the default folders.
+  - The `input_dir`, `tagged_dir`, and `output_dir` options allow to change the default folders.
   
   - `verbose` and `quiet` options allow to control the verbosity level of the software.
   
@@ -68,10 +73,10 @@ Options:
 
 To convert a set of files labeled by SPACCC_POS-TAGGER into BRAT standoff format, follow the following steps:
 <pre>
-Put all original files (with extension `.txt`) in a folder.
-Put all of their corresponding annotated files (ex: with extension `.txt_tagged`) in another folder.
-Create an output folder.
-Run the `convertFreelingToBrat.py` script by choosing the FULL annotation level.
+- Put all original files (with extension `.txt`) in a folder.
+- Put all of their corresponding annotated files (ex: with extension `.txt_tagged`) in another folder.
+- Create an output folder.
+- Run the `convertFreelingToBrat.py` script by choosing the FULL annotation level.
 </pre>
 
 
@@ -80,9 +85,9 @@ Run the `convertFreelingToBrat.py` script by choosing the FULL annotation level.
 Assuming that we have the following configuration:
 
 <pre>
-The original files are in folder `example_input/`
-The annotated files are in folder `example_tagged/`
-The destination folder is `example_output/`
+- The original files are in folder `example_input/`
+- The annotated files are in folder `example_tagged/`
+- The destination folder is `example_output/`
 </pre>
 
 Run:
@@ -115,4 +120,3 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
