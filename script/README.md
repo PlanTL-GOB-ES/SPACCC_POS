@@ -30,7 +30,7 @@ example_output/
 convertFreelingToBrat.py
 	Main script.
 
-generadorFicherosBrat.py
+generateBratFiles.py
 	Script with auxiliary functionality to the converter.
 
 README.md
